@@ -23,9 +23,7 @@ public void fractal(float x, float y, float siz)
 		fill(0);
 		stroke((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
 		strokeWeight(2);
-		rect(x,y,siz+100,siz+100);
-		//triangle(x-siz/2,y+siz,x,y,x+siz/2,y+50);
-		//triangle(x-siz/2+50,y+siz+50,x+50,y+50,x+siz/2+50,y+50);
+		rect(x,y,siz+100,siz+10);
 	}
 	else
 	{
